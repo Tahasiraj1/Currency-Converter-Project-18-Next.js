@@ -79,7 +79,7 @@ export default function CurrencyConverter() {
             <Card className="w-full max-w-md p-6 space-y-4 bg-gradient-to-b from-yellow-100 to bg-white">
                 <CardHeader className="text-center">
                     <div className="flex flex-row justify-center">
-                        <Coins className="mr-1" />
+                        <Coins className="sm:mr-1" />
                     <CardTitle className="text-3xl font-bold mr-6">
                         Currency Converter
                     </CardTitle>
