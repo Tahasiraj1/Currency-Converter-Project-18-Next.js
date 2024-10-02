@@ -35,7 +35,7 @@ export default function CurrencyConverter() {
                 const data = await response.json();
                 setExchangeRates(data.rates);
                 setSupportedCurrencies(Object.keys(data.rates));
-            } catch (error) {
+            } catch {
                 setError("Error fetching exchange rates.");
             } finally {
                 setLoading(false);
