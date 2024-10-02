@@ -76,7 +76,7 @@ export default function CurrencyConverter() {
 
     return (
         <div className="p-4 sm:p-8 md:p-10 lg:p-12 flex flex-col items-center justify-center h-screen bg-gradient-to-br from-yellow-300 to-orange-300">
-            <Card className="w-full max-w-md p-6 space-y-4 bg-gradient-to-b from-yellow-100 to bg-white">
+            <Card className="w-full max-w-md sm:p-6 space-y-4 bg-gradient-to-b from-yellow-100 to bg-white">
                 <CardHeader className="text-center">
                     <div className="flex flex-row justify-center">
                         <Coins className="mr-1" />
